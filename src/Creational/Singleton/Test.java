@@ -17,10 +17,11 @@ package Creational.Singleton;
  */
 public class Test {
     public static void main(String[] args) {
-        Thread t1 = new Thread(new T());
-        Thread t2 = new Thread(new T());
-        t1.start();
-        t2.start();
-        System.out.println("程序结束！");
+//        Thread t1 = new Thread(new T());
+//        Thread t2 = new Thread(new T());
+//        t1.start();
+//        t2.start();
+//        System.out.println("程序结束！");
+        System.out.println(EnumClass.INSTANCE == EnumClass.INSTANCE);
     }
 }

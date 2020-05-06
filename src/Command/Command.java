@@ -2,7 +2,7 @@ package Command;
 
 /**
  * @ClassName Command
- * @Description //TODO
+ * @Description 使用接口可以增加系统的灵活性
  * @Author Han ChengYi
  * @Date 2020/5/5 21:00
  * @Version 1.0
